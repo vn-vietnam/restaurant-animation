@@ -71,7 +71,7 @@ body:hover > #trailer {
 }
 @media (max-width: 1000px) {
 	.text-intro{
-		padding-top: 0;
+		/* padding-top: 0; */
 		padding-left: 4em;
 		padding-right: 4em;
 		padding-bottom: 6em;
@@ -81,7 +81,7 @@ body:hover > #trailer {
 	}
 	.list-menu:nth-child(2) {
 		flex-direction: column;
-		height: 120vh;
+		/* height: 120vh; */
 		gap: 5vh;
 	}
 	.list-menu:nth-child(3) {
@@ -248,6 +248,12 @@ body:hover > #trailer {
 }
 
 @media (max-width: 522px) {
+	.btn {
+		gap: 0;
+	}
+	#trailer {
+		display: none;
+	}
 	.video .title-video {
 		font-size: 28px;
 	}
